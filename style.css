@@ -1,0 +1,43 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    gap: 20px;
+  }
+  
+  .block {
+    background-color: #8a56ac; /* Purple background */
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    position: relative;
+  }
+  
+  .row-box {
+    width: 40px;
+    height: 40px;
+    background-color: #ffa500; /* Orange color */
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .col-box {
+    width: 40px;
+    height: 40px;
+    background-color: #ffa500; /* Orange color */
+    margin: 5px;
+    border-radius: 5px;
+  }
